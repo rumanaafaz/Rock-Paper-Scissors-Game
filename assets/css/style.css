@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 h1 {
@@ -13,10 +12,8 @@ h1 {
     color: hsl(0, 0%, 20%);
 }
 
-
 .choices {
     margin-bottom: 30px;
-
 }
 
 .choices button {
@@ -26,6 +23,21 @@ h1 {
     border-radius: 250px;
     background-color: hsl(200, 100%, 50%);
     cursor: pointer;
+    transition: background-color 0.5s ease;
 }
 
-.choices button:hover 
+.choices button:hover {
+    background-color: hsl(200, 100%, 20%);
+
+}
+
+#playerDisplay,
+#computerDisplay {
+    font-size: 2.5rem;
+}
+
+#resultDisplay {
+    font-size: 5rem;
+    margin: 30px 0;
+
+}
